@@ -9,7 +9,7 @@ services:
     environment:
       - PORT=3000
       - BASE_API_URL=api
-      - CLIENT_URL=http://localhost:8080
+      - CLIENT_URL=https://mern-ecommerce-seven-murex.vercel.app
       - JWT_SECRET=update_your_JWT_secret
       - MONGO_URI=update_your_mongo_URI
     ports:
