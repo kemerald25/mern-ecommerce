@@ -11,6 +11,6 @@ services:
       - BASE_API_URL=api
       - CLIENT_URL=https://mern-ecommerce-seven-murex.vercel.app
       - JWT_SECRET=update_your_JWT_secret
-      - MONGO_URI=update_your_mongo_URI
+      - MONGO_URI=mongodb+srv://devroyale:devroyale@mernapp.dxzuwbs.mongodb.net/?retryWrites=true&w=majority
     ports:
       - '3000:3000'
